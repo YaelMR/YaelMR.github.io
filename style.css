@@ -7,3 +7,21 @@ body {
   width: 960px;
   margin: 20px auto;
 }
+h1 { 
+	color: purple;
+	background-color: gray;
+	text-align:  center;
+}
+h2 {
+	color: blue;
+	text-shadow: 10px;
+}
+h3 {
+	color: blue;
+}
+h4 {
+	color: orange;
+}
+img {
+	width: 200px;
+}
