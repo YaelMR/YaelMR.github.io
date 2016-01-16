@@ -1,34 +1,21 @@
-body {
-  font-family: 'helvetica neue', arial, sans-serif;
-  font-weight: 300;
-  background: url(DSC_0472.jpg);
-  background-size: 150%;
- }
-#wrapper {
-  width: 960px;
-  margin: 20px auto;
-}
-h1 { 
+#Brand {
 	color: purple;
-	text-align:  center;
-	font-family: cursive;
+	font-family: 'Architects Daughter', cursive;
 }
-h2 {
-	color: royalblue;
-	font-size: 20px;
-	font-family: cursive;
+.jumbotron {
+	background-image: url("FitMe calendar.jpg");
+	background-size: cover;
+	min-height: 400px;
+	font-family:'Architects Daughter', cursive;
 }
-#self {
-	width: 120px;
+#newworkouts {
+	background-color: lightblue;
+	font-family:'Architects Daughter', cursive;
 }
-#about {
-	margin-left: 150px;
+#recipes {
+	background-color: pink;
+	font-family:'Architects Daughter', cursive;
 }
-.text {
-	margin-left: 230px;
-}
-img {
-	width: 200px;
-	height : 140px;
-}
-
+#music {
+	background-color: orange;
+	font-family:'Architects Daughter', cursive;
