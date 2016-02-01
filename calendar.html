@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Calendar</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href=style_calendar.css>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default">
+      <div class="container-fluid">
+         <div class="navbar-header">
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+           </button>
+           <a id="Brand" class="navbar-brand" href="#"><i class="fa fa-heart-o"></i><link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>FitMe</a>
+           <link rel="stylesheet" href=style.css>
+         </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="index.html">
+                <i class="fa fa-home"></i>Home</a>
+            </li>
+            <li><a href="About.html">
+                <i class="fa fa-info"></i>About</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                <i class="fa fa-heartbeat"></i></i>Workouts
+                <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="cardio.html">Cardio/Fat Burning</a></li>
+                <li><a href="strength.html">Sterngth</a></li>
+                <li><a href="HIIT.html">HIIT</a></li>
+                <li><a href="TRX.html">TRX</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="Recipes.html">
+                <i class="fa fa-cutlery"></i>Recipes</a>
+            </li>
+            <li><a href="calendar.html">
+                <i class="fa fa-calendar"></i></i>My Calendar</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+
+<div class="container">
+    <div class="page-header">
+      <h1>My Workout Monthly Calendar</h1>
+    </div>
+    <div class="row">
+      <div class="col-sm-3">
+        <h3>Workout Options</h3>
+        <table class="table table-bordered">
+            <thead>
+                <tr class="info">
+                <th>Type</th>
+                <th>Routine</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>Cardio</td>
+                <td>1</td>
+                </tr>
+                <tr>
+                <td></td>
+                <td>2</td>
+                </tr>
+                <tr>
+                <td></td>
+                <td>3</td>
+                </tr>
+                <tr>
+                <td>Strength</td>
+                <td>1</td>
+                </tr>
+                <tr>
+                <td></td>
+                <td>2</td>
+                </tr>
+                <tr>
+                <td></td>
+                <td>3</td>
+                </tr>
+                <tr>
+                <td></td>
+                <td>4</td>
+                </tr>
+                <td>HIIT</td>
+                <td>1</td>
+                </tr>
+                <tr>
+                <td></td>
+                <td>2</td>
+                </tr>
+                <tr>
+                <td></td>
+                <td>3</td>
+                </tr>
+                <tr>
+                <td>TRX</td>
+                <td>1</td>
+                </tr>
+                <tr>
+                <td></td>
+                <td>2</td>
+                </tr>
+                <tr>
+                <td></td>
+                <td>3</td>
+                </tr>
+            </tbody>
+        </table>
+      </div>
+      <div class="col-sm-9">
+        <h3>Workout Calendar</h3>
+        <table class="table table-bordered">
+          <thead>
+                <tr class="info">
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                <td>Cardio <br> R1</td>
+                <td>Strength <br> R1</td>
+                <td></td>
+                <td>HIIT <br> R1</td>
+                <td>Cardio <br> R2</td>
+                <td></td>
+                <td>TRX <br> R1</td>
+                </tr>
+                <tr>
+                <td>Cardio <br> R3</td>
+                <td>Strength <br> R2</td>
+                <td></td>
+                <td>TRX <br> R2</td>
+                <td></td>
+                <td>Strength <br> R3</td>
+                <td></td>
+                </tr>
+                <tr>
+                <td>HIIT <br> R2</td>
+                <td>Strength <br> R4</td>
+                <td></td>
+                <td>Cardio <br> R1</td>
+                <td>HIIT <br> R3</td>
+                <td></td>
+                <td>Cardio <br> R2</td>
+                </tr>
+                <tr>
+                <td>Strength <br> R1</td>
+                <td>HIIT <br> R1</td>
+                <td></td>
+                <td>TRX <br> R3</td>
+                <td></td>
+                <td>Cardio <br> R3</td>
+                <td></td>
+                </tr>
+              </tbody>
+        </table>
+      </div>
+    </div>
+
+</div>
+</body>
+</html>

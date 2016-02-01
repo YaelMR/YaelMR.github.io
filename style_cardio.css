@@ -1,0 +1,13 @@
+body {
+	background-image: url(cardio.jpg);
+	background-repeat: repeat-y;
+	background-size: 100%
+}
+h1 {
+	color: purple;
+	font-family: 'Architects Daughter', cursive;
+}
+h2 {
+	color: blue;
+	font-family: 'Architects Daughter', cursive;
+}

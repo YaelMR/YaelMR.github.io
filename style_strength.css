@@ -1,0 +1,13 @@
+.container {
+	background-image: url(strength.jpg);
+	background-repeat: no-repeat;
+	background-size: 40%
+}
+h1 {
+	color: purple;
+	font-family: 'Architects Daughter', cursive;
+}
+h3 {
+	color: blue;
+	font-family: 'Architects Daughter', cursive;
+}

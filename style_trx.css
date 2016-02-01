@@ -1,0 +1,18 @@
+body {
+	background-image: url(trx.jpg);
+	background-repeat: no-repeat;
+	background-size: 120%;
+
+}
+h1 {
+	color: purple;
+	font-family: 'Architects Daughter', cursive;
+}
+h3 {
+	color: blue;
+	font-family: 'Architects Daughter', cursive;
+}
+h4 {
+	color: aqua;
+	font-family: 'Architects Daughter', cursive;
+}

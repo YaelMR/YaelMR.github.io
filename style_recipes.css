@@ -1,0 +1,26 @@
+body {
+	background-image: url(recipes.jpg);
+	background-repeat: repeat-y;
+	background-size: 180%;
+}
+h1 {
+	color: blue;
+	font-family: 'Architects Daughter', cursive;
+}
+h3 {
+	color: green;
+	font-family: 'Architects Daughter', cursive;
+}
+h4 {
+	color: purple;
+	font-family: 'Architects Daughter', cursive;
+}
+.appetizers {
+	background-color: lightblue;
+}
+.entrees {
+	background-color: orange;
+}
+.desserts {
+	background-color: pink;
+}
